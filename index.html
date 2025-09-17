@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umpan Balik Make Up</title>
+    <style>
+        body {
+            background-color:rgb(238, 243, 243);
+        }
+        h1 {
+            color: rgb(84, 7, 151);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            font-weight: 30px;
+            text-align: center;
+
+        }
+
+        fieldset {
+            color: rgb(2, 1, 1);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px; 
+            font-weight: 15px;
+        }
+
+        legend {
+            font-weight: bold;
+            font-style: initial;
+            font-size: 30px;
+            color:rgb(137, 90, 179);
+        }
+
+        body {
+            background-color: rgb(218, 153, 218);
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1> Umpan Balik Make up</h1>
+   
+   <form action="#" >
+    <fieldset>
+        <legend>User Data</legend>
+
+    <table>
+        <!-- Tanpa Label -->
+
+        <tr>
+            <td><label for="Nama">Nama Lengkap </label></td>
+          <td> <input type="text" id="nama" name="username"></td>
+         
+          <br>
+        </tr>
+        <tr>
+
+           <td><label for="Email">Email     </label></td>
+          <td> <input type="email"></td>
+       
+        </tr>
+
+        <tr>
+            <td><label for="No">No Handphone</label></td>
+            <td><input type="number"></td>
+        </tr>
+
+    </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Information Product</legend>
+        <table>
+            <!-- dengan label -->
+             <tr>
+                <td><label for="Nama">Name Produk</label></td>
+                <td><input type="radio" name="Lipstik" value="Lipstik">Lipstik </td>
+             </tr>
+             <td>
+                <td><input type="radio" name="foundation" value="Foundation">Foundation</td>
+             </tr>
+             <td>
+                <td><input type="radio" name="blush on" value="Blush On"> Blush On</td>
+             </tr>
+             <td>
+                <td><input type="radio" name="eye makeup" value="eye makeup"> Eye makeup</td>
+             </tr>
+
+             <!-- dengan label -->
+              <tr>
+                <td><label for="Nama">Shade</label></td>   
+        <td>
+        <select id="shade" name="shade">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+              </tr>
+            
+            <!-- dengan label -->
+             <tr>
+                <td><label for="Nama">Tanggal Pembelian</label></td>
+            <td><input type="date" name="tanggal"> </td>
+             </tr>
+
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Pengalaman Penggunaan</legend>
+        <table>
+            <!-- dengan label -->
+             <tr>
+                <td><label for="Nama">Bagaimana kesan pertama Anda saat menggunakan produk ini</label></td>
+            </tr>
+                <td><input type="radio" nama="sangat buruk" value="sangat buruk">sangat buruk</td>
+            <tr>
+                <td><input type="radio" nama="buruk" value="buruk">buruk</td>
+             </tr>
+             <tr>
+                <td><input type="radio" nama="biasa saja" value="biasa saja">biasa saja</label></td>
+             </tr>
+             <tr>
+                <td><input type="radio" nama="baik" value="baik">baik</td>
+             </tr>
+             <tr>
+                <td><input type="radio" nama="sangat baik" value="sangat baik">sangat baik</td>
+             </tr>
+
+             <!-- dengan label -->
+              <tr>
+                <td><label for="Nama">Bagaimana kesan Anda terhadap kemasan produk ini</label></td>
+              </tr>
+                <td><input type="radio" nama="sangat menarik" value="sangat menarik">sangat menarik</td>
+             <tr>
+                <td><input type="radio" nama="menarik" value="menarik">cukup menarik</td>
+             </tr>
+             <tr>
+                <td><input type="radio" name="menarik" value="menarik">menarik </td>
+             </tr>
+
+            <!-- dengan label -->
+             <tr>
+                <td><label for="nama">Bagaimana daya tahan produk</label></td>
+             </tr>
+                <td><input type="radio" nama="" value="">Tidak tahan lama</td>
+            <tr>
+                <td><input type="radio" nama="" value="">Cukup tahan lama</td>
+            </tr>
+            <tr>
+                <td><input type="radio" nama="" value="">Tahan lama</td>
+            </tr>
+
+            <!-- dengan label -->
+             <tr>
+                <td><label for="nama">Apakah produk menyebabkan efek samping</label></td>
+             </tr>
+                <td><input type="radio" nama="" value=""> YA</td>
+            <tr>
+                <td><input type="radio" nama="" value=""> TIDAK</td>
+            </tr>
+
+            <!-- dengan label -->
+             <tr>
+                <td><label for="Nama">Tingkat Kepuasan</label></td>   
+        <td>
+            <tr>
+                <td>
+        <select id="Tingkat Kepuasan" name="Tingkat Kepuasan">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+               </td>
+              </tr>
+            
+            <!-- dengan label -->
+             <tr>
+                <td><label for="Nama">Apakah Anda akan membeli produk ini kembali</label></td>
+             </tr>
+                <td><input type="radio" nama="" value="">YA</td>
+            <tr>
+                <td><input type="radio" nama="" value=""> Mungkin</td>
+            </tr>
+            <tr>
+                <td><input type="radio" nama="" value="">TIDAK </td>
+            </tr>
+             </table>
+        </fieldset>
+       
+      <!--  Komentar  -->
+        <tr>
+  <td colspan="3" style="text-align:center;">
+    <label for="pendapat" style="display:block; font-weight:bold; color:rgb(182, 141, 219); margin: bottom: 5px;">
+      Komentar
+    </label>
+    <textarea id="pendapat" name="pendapat" rows="6" cols="120" 
+      style="border:2px solid rgb(182, 141, 219); border-radius:8px; padding:10px; background-color:#fdfdfd; color:#333;">
+    </textarea>
+  </td>
+</tr>
+ <br>
+             <!-- versi 1 tombol pakai input  -->
+              <input type="Submit" value="Daftar">
+
+              <!--  Versi 2 tombol pakai button-->
+                <button type="reset">Reset</button>
+
+
+   </form>
+
+
+</body>
+</html>
